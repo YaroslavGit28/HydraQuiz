@@ -1,0 +1,61 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Database and local data
+*.db
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+
+# Test results
+TestResults/
+*.trx
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+
+# JSON data (if not tracked)
+QuizApp.WinForms/questions.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# OneDrive/Cloud
+*.lnk
+~$*
+
+# Ignore local settings
+*.local.json
+
+# Ignore coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# Ignore publish output
+publish/
+
+# Ignore report files
+*.report.*
+
+# Ignore hidden folders
+.vs/ 
